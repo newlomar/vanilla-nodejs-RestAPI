@@ -1,5 +1,6 @@
 {
-  "name": "vanilla-nodejs-restAPI",
+  "private": true,
+  "name": "vanilla-nodejs-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/newlomar/vanilla-nodejs-RestAPI#readme",
   "devDependencies": {
     "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
   }
 }
